@@ -9,14 +9,11 @@
     "formate:check": "npx prettier . --check",
     "formate:fix": "npx prettier . --write",
     "prepare": "husky"
-
   },
     "lint-staged": {
-      "*.ts": [
-        "npx lint:fix",
-        "npx formate:fix"
-      ]
-    },
+      "*.ts": ["npx eslint . --fix", "npx prettier . --write"]
+    }
+  ,
   "keywords": [],
   "author": "",
   "license": "ISC",
