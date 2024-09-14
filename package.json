@@ -13,8 +13,8 @@
   },
     "lint-staged": {
       "*.ts": [
-        "npm run lint:fix",
-        "npm run formate:fix"
+        "npx lint:fix",
+        "npx formate:fix"
       ]
     },
   "keywords": [],
