@@ -11,7 +11,7 @@
     "prepare": "husky"
   },
     "lint-staged": {
-      "*.ts": ["npx eslint . --fix", "npx prettier . --write"]
+      "*.ts": ["npm run lint:fix", "npm run formate:fix"]
     }
   ,
   "keywords": [],
