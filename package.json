@@ -10,10 +10,12 @@
     "formate:fix": "npx prettier . --write",
     "prepare": "husky"
   },
-    "lint-staged": {
-      "*.ts": ["npm run lint:fix", "npm run formate:fix"]
-    }
-  ,
+  "lint-staged": {
+    "*.ts": [
+      "npm run lint:fix",
+      "npm run formate:fix"
+    ]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
