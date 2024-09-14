@@ -10,7 +10,6 @@ export default tseslint.config({
     ...tseslint.configs.recommendedTypeChecked,
     ...tseslint.configs.stylisticTypeChecked,
     eslintConfigPrettier
-    
     ],
     
       languageOptions: {
@@ -19,7 +18,6 @@ export default tseslint.config({
           tsconfigRootDir: import.meta.dirname,
         },
       },
-    
     
       files: ['**/*.ts'],
     }
